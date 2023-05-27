@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profit or loss App</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>HOW YOU DOIN' STOCKS?</h1>
+    <p>Check the profit and loss status of your stocks here</p>
+    <main>
+      <label for="initial-price">Initial Price</label>
+      <input
+        type="number"
+        placeholder="Enter initial price here"
+        id="initial-price"
+      />
+      <label for="stocks-quantity">Quantity of the Stocks</label>
+      <input
+        type="number"
+        placeholder="Enter the number of stocks bought"
+        id="stocks-quantity"
+      />
+      <label for="current-price">Current Price</label>
+      <input
+        type="number"
+        placeholder="Enter the Current price of the stocks"
+        id="current-price"
+      />
+      <button id="submit-btn">Tell Me!!</button>
+      <div id="output-box"></div>
+    </main>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
 </html>
